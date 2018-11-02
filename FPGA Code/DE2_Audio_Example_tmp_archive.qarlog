@@ -1,0 +1,31 @@
+Quartus II Archive log --	C:/Users/Frosted Butts/Desktop/Audio_Demo/DE2_Audio_Example_tmp_archive.qarlog
+
+Archive:	C:/Users/Frosted Butts/Desktop/Audio_Demo/DE2_Audio_Example_tmp_archive.qar
+Date:		Fri Nov 28 01:01:52 2014
+Quartus II 32-bit		11.1 Build 259 01/25/2012 SP 2.11 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/Frosted Butts/Desktop/Audio_Demo/Audio_Controller/Altera_UP_Audio_Bit_Counter.v
+C:/Users/Frosted Butts/Desktop/Audio_Demo/Audio_Controller/Altera_UP_Audio_In_Deserializer.v
+C:/Users/Frosted Butts/Desktop/Audio_Demo/Audio_Controller/Altera_UP_Audio_Out_Serializer.v
+C:/Users/Frosted Butts/Desktop/Audio_Demo/Audio_Controller/Altera_UP_Clock_Edge.v
+C:/Users/Frosted Butts/Desktop/Audio_Demo/Audio_Controller/Altera_UP_SYNC_FIFO.v
+C:/Users/Frosted Butts/Desktop/Audio_Demo/Audio_Controller/Audio_Clock.v
+C:/Users/Frosted Butts/Desktop/Audio_Demo/Audio_Controller/Audio_Controller.v
+C:/Users/Frosted Butts/Desktop/Audio_Demo/DE2_Audio_Example.qpf
+C:/Users/Frosted Butts/Desktop/Audio_Demo/DE2_Audio_Example.qsf
+C:/Users/Frosted Butts/Desktop/Audio_Demo/DE2_Audio_Example.v
+C:/Users/Frosted Butts/Desktop/Audio_Demo/DE2_Audio_Example_assignment_defaults.qdf
+C:/Users/Frosted Butts/Desktop/Audio_Demo/avconf/I2C_Controller.v
+C:/Users/Frosted Butts/Desktop/Audio_Demo/avconf/avconf.v
+C:/Users/Frosted Butts/Desktop/Audio_Demo/incremental_db/compiled_partitions/DE2_Audio_Example.db_info
+	======= Total: 14 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Fri Nov 28 01:01:54 2014
+Source archive file:	C:/Users/Frosted Butts/Desktop/Audio_Demo/DE2_Audio_Example_tmp_archive.qar
+Archive was extracted into	C:/Users/Frosted Butts/Desktop/TB302/
+		 - successfully.

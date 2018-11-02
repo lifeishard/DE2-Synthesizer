@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="DE2_synthesizer">
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_synthesizer|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_decode:wdecoder" CBX_FILE_NAME="decode_rqf.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_synthesizer|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:status_read_pointer_counter" CBX_FILE_NAME="cntr_gui.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_synthesizer|toneGen:soundgenerator|Audio_Controller:Audio_Controller|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Right_Channel_FIFO|scfifo:Sync_FIFO" CBX_FILE_NAME="scfifo_5041.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_synthesizer|pitchdecoder:getpitchfromkey|altsyncram:WideOr0_rtl_0" CBX_FILE_NAME="altsyncram_5211.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_synthesizer|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:read_pointer_counter" CBX_FILE_NAME="cntr_p6j.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_synthesizer|toneGen:soundgenerator|Audio_Controller:Audio_Controller|Altera_UP_Audio_In_Deserializer:Audio_In_Deserializer|Altera_UP_SYNC_FIFO:Audio_In_Left_Channel_FIFO|scfifo:Sync_FIFO" CBX_FILE_NAME="scfifo_5041.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_synthesizer|toneGen:soundgenerator|Audio_Controller:Audio_Controller|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Right_Channel_FIFO|scfifo:Sync_FIFO" CBX_FILE_NAME="scfifo_5041.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_synthesizer|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altsyncram:\stp_non_zero_ram_gen:stp_buffer_ram" CBX_FILE_NAME="altsyncram_qp14.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_synthesizer|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:status_advance_pointer_counter" CBX_FILE_NAME="cntr_2ci.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_synthesizer|toneGen:soundgenerator|Audio_Controller:Audio_Controller|Altera_UP_Audio_Out_Serializer:Audio_Out_Serializer|Altera_UP_SYNC_FIFO:Audio_Out_Left_Channel_FIFO|scfifo:Sync_FIFO" CBX_FILE_NAME="scfifo_5041.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_synthesizer|toneGen:soundgenerator|lpm_divide:Div0" CBX_FILE_NAME="lpm_divide_2gm.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_synthesizer|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|altdpram:\stp_non_zero_ram_gen:attribute_mem_gen:attribute_mem|lpm_mux:mux" CBX_FILE_NAME="mux_foc.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|DE2_synthesizer|sld_signaltap:auto_signaltap_0|sld_signaltap_impl:sld_signaltap_body|sld_offload_buffer_mgr:\stp_non_zero_depth_offload_gen:stp_offload_buff_mgr_inst|LPM_COUNTER:\adv_point_3_and_more:advance_pointer_counter" CBX_FILE_NAME="cntr_dai.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

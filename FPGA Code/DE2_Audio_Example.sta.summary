@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow Model Setup 'SW[0]'
+Slack : -54.585
+TNS   : -527.941
+
+Type  : Slow Model Setup 'CLOCK_50'
+Slack : -11.555
+TNS   : -838.769
+
+Type  : Slow Model Setup 'toneGen:comb_107|avconf:avc|mI2C_CTRL_CLK'
+Slack : -3.114
+TNS   : -133.188
+
+Type  : Slow Model Setup 'toneGen:comb_107|avconf:avc|LUT_INDEX[1]'
+Slack : -1.419
+TNS   : -19.097
+
+Type  : Slow Model Hold 'toneGen:comb_107|avconf:avc|LUT_INDEX[1]'
+Slack : -2.948
+TNS   : -24.452
+
+Type  : Slow Model Hold 'toneGen:comb_107|avconf:avc|mI2C_CTRL_CLK'
+Slack : -0.125
+TNS   : -0.179
+
+Type  : Slow Model Hold 'CLOCK_50'
+Slack : 0.283
+TNS   : 0.000
+
+Type  : Slow Model Hold 'SW[0]'
+Slack : 2.360
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'SW[0]'
+Slack : -1.380
+TNS   : -45.862
+
+Type  : Slow Model Minimum Pulse Width 'toneGen:comb_107|avconf:avc|mI2C_CTRL_CLK'
+Slack : -0.500
+TNS   : -56.000
+
+Type  : Slow Model Minimum Pulse Width 'toneGen:comb_107|avconf:avc|LUT_INDEX[1]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Slow Model Minimum Pulse Width 'CLOCK_50'
+Slack : 7.873
+TNS   : 0.000
+
+Type  : Fast Model Setup 'SW[0]'
+Slack : -23.710
+TNS   : -222.704
+
+Type  : Fast Model Setup 'CLOCK_50'
+Slack : -4.541
+TNS   : -328.252
+
+Type  : Fast Model Setup 'toneGen:comb_107|avconf:avc|mI2C_CTRL_CLK'
+Slack : -1.196
+TNS   : -33.029
+
+Type  : Fast Model Setup 'toneGen:comb_107|avconf:avc|LUT_INDEX[1]'
+Slack : -0.092
+TNS   : -0.504
+
+Type  : Fast Model Hold 'toneGen:comb_107|avconf:avc|LUT_INDEX[1]'
+Slack : -1.659
+TNS   : -16.808
+
+Type  : Fast Model Hold 'toneGen:comb_107|avconf:avc|mI2C_CTRL_CLK'
+Slack : -0.327
+TNS   : -1.770
+
+Type  : Fast Model Hold 'CLOCK_50'
+Slack : -0.319
+TNS   : -0.319
+
+Type  : Fast Model Hold 'SW[0]'
+Slack : 0.902
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'SW[0]'
+Slack : -1.380
+TNS   : -1.380
+
+Type  : Fast Model Minimum Pulse Width 'toneGen:comb_107|avconf:avc|mI2C_CTRL_CLK'
+Slack : -0.500
+TNS   : -56.000
+
+Type  : Fast Model Minimum Pulse Width 'toneGen:comb_107|avconf:avc|LUT_INDEX[1]'
+Slack : 0.500
+TNS   : 0.000
+
+Type  : Fast Model Minimum Pulse Width 'CLOCK_50'
+Slack : 7.873
+TNS   : 0.000
+
+------------------------------------------------------------

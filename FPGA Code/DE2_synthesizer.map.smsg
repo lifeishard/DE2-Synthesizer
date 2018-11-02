@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at playNextNote.v(31): always construct contains both blocking and non-blocking assignments
+Warning (10268): Verilog HDL information at DE2_Audio_Example.v(171): always construct contains both blocking and non-blocking assignments

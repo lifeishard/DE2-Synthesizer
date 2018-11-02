@@ -1,0 +1,86 @@
+module noteLookup (
+	note,
+	octave,
+	frequency
+);
+
+input [3:0] note; //0: C, 1: C#, 2: D, 3: D#, 4: E, 5: F, 6: F#, 7: G, 8: G#, 9: A, 10: A#, 11: B, 12: C, default: silence
+input [2:0] octave;
+output reg[13:0] frequency;
+
+always @ *
+	case (octave)
+	0: begin //default range C2 -> C3
+		case (note)
+		0 : frequency = 13'd65;
+		1 : frequency = 13'd69;
+		2 : frequency = 13'd73;
+		3 : frequency = 13'd78;
+		4 : frequency = 13'd82;
+		5 : frequency = 13'd87;
+		6 : frequency = 13'd92;
+		7 : frequency = 13'd98;
+		8 : frequency = 13'd104;
+		9 : frequency = 13'd110;
+		10: frequency = 13'd117;
+		11: frequency = 13'd123;
+		12: frequency = 13'd131;
+		default: frequency = 13'd0;
+		endcase
+	end
+	1: begin //transpose up 1 octave C3 -> C4
+		case (note)
+		0 : frequency = 13'd131;
+		1 : frequency = 13'd139;
+		2 : frequency = 13'd147;
+		3 : frequency = 13'd156;
+		4 : frequency = 13'd165;
+		5 : frequency = 13'd175;
+		6 : frequency = 13'd185;
+		7 : frequency = 13'd196;
+		8 : frequency = 13'd208;
+		9 : frequency = 13'd220;
+		10: frequency = 13'd233;
+		11: frequency = 13'd247;
+		12: frequency = 13'd262;
+		default: frequency = 13'd0;
+		endcase
+	end
+	2: begin //transpose down 1 octave C1 -> C2
+		case (note)
+		0 : frequency = 13'd33;
+		1 : frequency = 13'd35;
+		2 : frequency = 13'd37;
+		3 : frequency = 13'd39;
+		4 : frequency = 13'd41;
+		5 : frequency = 13'd44;
+		6 : frequency = 13'd46;
+		7 : frequency = 13'd49;
+		8 : frequency = 13'd52;
+		9 : frequency = 13'd55;
+		10: frequency = 13'd58;
+		11: frequency = 13'd62;
+		12: frequency = 13'd65;
+		default: frequency = 13'd0;
+		endcase
+	end
+	default: begin //also goes to default range
+		case (note)
+		0 : frequency = 13'd65;
+		1 : frequency = 13'd69;
+		2 : frequency = 13'd73;
+		3 : frequency = 13'd78;
+		4 : frequency = 13'd82;
+		5 : frequency = 13'd87;
+		6 : frequency = 13'd92;
+		7 : frequency = 13'd98;
+		8 : frequency = 13'd104;
+		9 : frequency = 13'd110;
+		10: frequency = 13'd117;
+		11: frequency = 13'd123;
+		12: frequency = 13'd131;
+		default: frequency = 13'd0;
+		endcase
+	end
+	endcase
+endmodule
